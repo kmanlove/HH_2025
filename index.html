@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bipartite Graph with D3.js</title>
+  <style>
+    svg {
+      width: 100%;
+      height: 800px;
+      border: 1px solid #ccc;
+    }
+    .group-1 {
+      fill: #1f77b4; /* Blue for counties */
+    }
+    .group-2 {
+      fill: #ff7f0e; /* Orange for units */
+    }
+    text {
+      font-size: 10px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <svg></svg>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+    d3.json("bipartite_graph.json").then(function(data) {
+      const width = 1000;
+      const height = 800;
+      const padding = 100;
+
+      const svg = d3.select("svg")
+        .attr("viewBox", [0, 0, width, height]);
+
+      // Split nodes into groups
+      const leftNodes = data.nodes.filter(d => d.group === 1);  // targets
+      const rightNodes = data.nodes.filter(d => d.group === 2); // sources
+
+      // Prepare all nodes in one array for lookup
+      const nodes = leftNodes.concat(rightNodes);
+
+      // Build links with reference to node objects
+      const links = data.links.map(link => ({
+        source: nodes.find(n => n.id === link.source),
+        target: nodes.find(n => n.id === link.target),
+        weight: link.weight
+      }));
+
+      // Build nodeWeightMap and attach totalWeight to nodes
+      const nodeWeightMap = new Map();
+      links.forEach(link => {
+        nodeWeightMap.set(link.source.id, (nodeWeightMap.get(link.source.id) || 0) + link.weight);
+        nodeWeightMap.set(link.target.id, (nodeWeightMap.get(link.target.id) || 0) + link.weight);
+      });
+
+      nodes.forEach(n => {
+        n.totalWeight = nodeWeightMap.get(n.id) || 0;
+      });
+
+      // Sort left and right nodes by descending total weight
+      leftNodes.sort((a, b) => b.totalWeight - a.totalWeight);
+      rightNodes.sort((a, b) => b.totalWeight - a.totalWeight);
+
+      // Position nodes
+      leftNodes.forEach((d, i) => {
+        d.x = padding;
+        d.y = padding + i * (height - 2 * padding) / leftNodes.length;
+      });
+
+      rightNodes.forEach((d, i) => {
+        d.x = width - padding;
+        d.y = padding + i * (height - 2 * padding) / rightNodes.length;
+      });
+
+      // Define log-based scales
+const weightExtent = d3.extent(links, d => d.weight);
+const strokeScale = d3.scaleLinear().domain(weightExtent).range([1, 6]);
+const opacityScale = d3.scaleLinear().domain(weightExtent).range([0.2, 1]);
+
+      // Node radius scale
+const radiusExtent = d3.extent(nodes, d => d.totalWeight);
+const radiusScale = d3.scaleLinear().domain(radiusExtent).range([3, 10]);
+
+      // Sanitize helper for class names
+      function sanitize(id) {
+        return id.replace(/[^a-zA-Z0-9]/g, "_");
+      }
+
+      // Draw links
+      const link = svg.append("g")
+        .selectAll("line")
+        .data(links)
+        .join("line")
+          .attr("class", d => `link source-${sanitize(d.source.id)} target-${sanitize(d.target.id)}`)
+          .attr("stroke", "#555")
+ .attr("stroke-width", d => strokeScale(d.weight))
+.attr("stroke-opacity", d => opacityScale(d.weight))
+          .attr("x1", d => d.source.x)
+          .attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x)
+          .attr("y2", d => d.target.y);
+
+      // Draw nodes
+      const node = svg.append("g")
+        .selectAll("circle")
+        .data(nodes)
+        .join("circle")
+          .attr("cx", d => d.x)
+          .attr("cy", d => d.y)
+ .attr("r", d => radiusScale(d.totalWeight))
+          .attr("class", d => `group-${d.group}`)
+          .on("mouseover", (event, d) => {
+            svg.selectAll("line")
+              .attr("stroke", l =>
+                l.source.id === d.id || l.target.id === d.id ? "#d62728" : "#ccc"
+              )
+              .attr("stroke-opacity", l =>
+                l.source.id === d.id || l.target.id === d.id ? 1 : 0.1
+              );
+          })
+          .on("mouseout", () => {
+            svg.selectAll("line")
+              .attr("stroke", "#555")
+              .attr("stroke-opacity", d => opacityScale(logWeight(d)));
+          });
+
+      // Draw labels
+      const label = svg.append("g")
+        .selectAll("text")
+        .data(nodes)
+        .join("text")
+          .text(d => d.id)
+          .attr("x", d => d.group === 1 ? d.x - 8 : d.x + 8)
+          .attr("y", d => d.y + 3)
+          .attr("text-anchor", d => d.group === 1 ? "end" : "start")
+          .attr("font-size", 10);
+    });
+  </script>
+</body>
+</html>

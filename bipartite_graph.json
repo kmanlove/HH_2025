@@ -1,0 +1,4305 @@
+{
+  "nodes": [
+    {
+      "id": "Beaver",
+      "group": 2
+    },
+    {
+      "id": "Book Cliffs",
+      "group": 2
+    },
+    {
+      "id": "Book Cliffs, North",
+      "group": 2
+    },
+    {
+      "id": "Book Cliffs, South",
+      "group": 2
+    },
+    {
+      "id": "Boulder/Kaiparowits",
+      "group": 2
+    },
+    {
+      "id": "Box Elder",
+      "group": 2
+    },
+    {
+      "id": "Cache",
+      "group": 2
+    },
+    {
+      "id": "Chalk Creek",
+      "group": 2
+    },
+    {
+      "id": "Chalk Creek ",
+      "group": 2
+    },
+    {
+      "id": "Deseret",
+      "group": 2
+    },
+    {
+      "id": "Diamond Mtn",
+      "group": 2
+    },
+    {
+      "id": "Diamond Mtn ",
+      "group": 2
+    },
+    {
+      "id": "East Canyon",
+      "group": 2
+    },
+    {
+      "id": "East Fork Chalk Creek",
+      "group": 2
+    },
+    {
+      "id": "Fillmore",
+      "group": 2
+    },
+    {
+      "id": "Fillmore ",
+      "group": 2
+    },
+    {
+      "id": "Fillmore, Oak Creek LE ",
+      "group": 2
+    },
+    {
+      "id": "Fishlake",
+      "group": 2
+    },
+    {
+      "id": "Grass Valley/Clark Canyon",
+      "group": 2
+    },
+    {
+      "id": "Henry Mtns",
+      "group": 2
+    },
+    {
+      "id": "Junction Valley",
+      "group": 2
+    },
+    {
+      "id": "Kamas",
+      "group": 2
+    },
+    {
+      "id": "La Sal, La Sal Mtns",
+      "group": 2
+    },
+    {
+      "id": "Manti/San Rafael",
+      "group": 2
+    },
+    {
+      "id": "Manti/San Rafael ",
+      "group": 2
+    },
+    {
+      "id": "Monroe",
+      "group": 2
+    },
+    {
+      "id": "Morgan-South Rich",
+      "group": 2
+    },
+    {
+      "id": "Morgan-South Rich ",
+      "group": 2
+    },
+    {
+      "id": "Mt Dutton",
+      "group": 2
+    },
+    {
+      "id": "Myton ",
+      "group": 2
+    },
+    {
+      "id": "Nebo",
+      "group": 2
+    },
+    {
+      "id": "Nine Mile",
+      "group": 2
+    },
+    {
+      "id": "North Slope",
+      "group": 2
+    },
+    {
+      "id": "Ogden",
+      "group": 2
+    },
+    {
+      "id": "Oquirrh-Stansbury",
+      "group": 2
+    },
+    {
+      "id": "Panguitch Lake",
+      "group": 2
+    },
+    {
+      "id": "Panguitch Lake ",
+      "group": 2
+    },
+    {
+      "id": "Paunsaugunt",
+      "group": 2
+    },
+    {
+      "id": "Pine Valley",
+      "group": 2
+    },
+    {
+      "id": "San Juan, Abajo Mtns",
+      "group": 2
+    },
+    {
+      "id": "San Juan, Elk Ridge",
+      "group": 2
+    },
+    {
+      "id": "Southeastern Navajo Buck Deer",
+      "group": 2
+    },
+    {
+      "id": "Southwest Desert",
+      "group": 2
+    },
+    {
+      "id": "Spring Creek/Dodge",
+      "group": 2
+    },
+    {
+      "id": "Thousand Lakes",
+      "group": 2
+    },
+    {
+      "id": "Vernal/Bonanza",
+      "group": 2
+    },
+    {
+      "id": "Wasatch Mtns, East",
+      "group": 2
+    },
+    {
+      "id": "Wasatch Mtns, East ",
+      "group": 2
+    },
+    {
+      "id": "Wasatch Mtns, West",
+      "group": 2
+    },
+    {
+      "id": "West Desert, Tintic",
+      "group": 2
+    },
+    {
+      "id": "West Desert, Vernon",
+      "group": 2
+    },
+    {
+      "id": "West Desert, West",
+      "group": 2
+    },
+    {
+      "id": "Yellowstone",
+      "group": 2
+    },
+    {
+      "id": "Zion",
+      "group": 2
+    },
+    {
+      "id": "Beaver",
+      "group": 1
+    },
+    {
+      "id": "Box Elder",
+      "group": 1
+    },
+    {
+      "id": "Cache",
+      "group": 1
+    },
+    {
+      "id": "Carbon",
+      "group": 1
+    },
+    {
+      "id": "Cassia",
+      "group": 1
+    },
+    {
+      "id": "Coconino",
+      "group": 1
+    },
+    {
+      "id": "Daggett",
+      "group": 1
+    },
+    {
+      "id": "Davis",
+      "group": 1
+    },
+    {
+      "id": "Duchesne",
+      "group": 1
+    },
+    {
+      "id": "Emery",
+      "group": 1
+    },
+    {
+      "id": "Garfield",
+      "group": 1
+    },
+    {
+      "id": "Grand",
+      "group": 1
+    },
+    {
+      "id": "Iron",
+      "group": 1
+    },
+    {
+      "id": "Juab",
+      "group": 1
+    },
+    {
+      "id": "Kane",
+      "group": 1
+    },
+    {
+      "id": "Millard",
+      "group": 1
+    },
+    {
+      "id": "Morgan",
+      "group": 1
+    },
+    {
+      "id": "Piute",
+      "group": 1
+    },
+    {
+      "id": "Rich",
+      "group": 1
+    },
+    {
+      "id": "Salt Lake",
+      "group": 1
+    },
+    {
+      "id": "San Juan",
+      "group": 1
+    },
+    {
+      "id": "Sanpete",
+      "group": 1
+    },
+    {
+      "id": "Sevier",
+      "group": 1
+    },
+    {
+      "id": "Summit",
+      "group": 1
+    },
+    {
+      "id": "Tooele",
+      "group": 1
+    },
+    {
+      "id": "Uintah",
+      "group": 1
+    },
+    {
+      "id": "Utah",
+      "group": 1
+    },
+    {
+      "id": "Wasatch",
+      "group": 1
+    },
+    {
+      "id": "Washington",
+      "group": 1
+    },
+    {
+      "id": "Washtenaw",
+      "group": 1
+    },
+    {
+      "id": "Wayne",
+      "group": 1
+    },
+    {
+      "id": "Weber",
+      "group": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "Beaver",
+      "target": "Beaver",
+      "weight": 242
+    },
+    {
+      "source": "Beaver",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Beaver",
+      "target": "Cache",
+      "weight": 9
+    },
+    {
+      "source": "Beaver",
+      "target": "Carbon",
+      "weight": 1
+    },
+    {
+      "source": "Beaver",
+      "target": "Davis",
+      "weight": 20
+    },
+    {
+      "source": "Beaver",
+      "target": "Emery",
+      "weight": 1
+    },
+    {
+      "source": "Beaver",
+      "target": "Garfield",
+      "weight": 8
+    },
+    {
+      "source": "Beaver",
+      "target": "Grand",
+      "weight": 1
+    },
+    {
+      "source": "Beaver",
+      "target": "Iron",
+      "weight": 69
+    },
+    {
+      "source": "Beaver",
+      "target": "Juab",
+      "weight": 10
+    },
+    {
+      "source": "Beaver",
+      "target": "Kane",
+      "weight": 5
+    },
+    {
+      "source": "Beaver",
+      "target": "Millard",
+      "weight": 32
+    },
+    {
+      "source": "Beaver",
+      "target": "Piute",
+      "weight": 27
+    },
+    {
+      "source": "Beaver",
+      "target": "Salt Lake",
+      "weight": 47
+    },
+    {
+      "source": "Beaver",
+      "target": "Sanpete",
+      "weight": 4
+    },
+    {
+      "source": "Beaver",
+      "target": "Sevier",
+      "weight": 53
+    },
+    {
+      "source": "Beaver",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "Beaver",
+      "target": "Tooele",
+      "weight": 10
+    },
+    {
+      "source": "Beaver",
+      "target": "Uintah",
+      "weight": 1
+    },
+    {
+      "source": "Beaver",
+      "target": "Utah",
+      "weight": 53
+    },
+    {
+      "source": "Beaver",
+      "target": "Washington",
+      "weight": 50
+    },
+    {
+      "source": "Beaver",
+      "target": "Weber",
+      "weight": 9
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Box Elder",
+      "weight": 2
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Carbon",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Davis",
+      "weight": 5
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Duchesne",
+      "weight": 2
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Emery",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Millard",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Rich",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Salt Lake",
+      "weight": 10
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Sanpete",
+      "weight": 3
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Sevier",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Uintah",
+      "weight": 9
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Utah",
+      "weight": 12
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Wasatch",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Washington",
+      "weight": 2
+    },
+    {
+      "source": "Book Cliffs",
+      "target": "Weber",
+      "weight": 7
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Cache",
+      "weight": 2
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Davis",
+      "weight": 7
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Duchesne",
+      "weight": 13
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Emery",
+      "weight": 2
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Salt Lake",
+      "weight": 10
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Sanpete",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Sevier",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Uintah",
+      "weight": 18
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Utah",
+      "weight": 19
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Wasatch",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Wayne",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs, North",
+      "target": "Weber",
+      "weight": 2
+    },
+    {
+      "source": "Book Cliffs, South",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs, South",
+      "target": "Davis",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs, South",
+      "target": "Duchesne",
+      "weight": 2
+    },
+    {
+      "source": "Book Cliffs, South",
+      "target": "Emery",
+      "weight": 2
+    },
+    {
+      "source": "Book Cliffs, South",
+      "target": "Grand",
+      "weight": 2
+    },
+    {
+      "source": "Book Cliffs, South",
+      "target": "Sanpete",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs, South",
+      "target": "Sevier",
+      "weight": 2
+    },
+    {
+      "source": "Book Cliffs, South",
+      "target": "Summit",
+      "weight": 2
+    },
+    {
+      "source": "Book Cliffs, South",
+      "target": "Tooele",
+      "weight": 1
+    },
+    {
+      "source": "Book Cliffs, South",
+      "target": "Utah",
+      "weight": 7
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Beaver",
+      "weight": 3
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Box Elder",
+      "weight": 7
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Cache",
+      "weight": 7
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Carbon",
+      "weight": 1
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Davis",
+      "weight": 34
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Duchesne",
+      "weight": 7
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Emery",
+      "weight": 8
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Garfield",
+      "weight": 69
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Iron",
+      "weight": 31
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Juab",
+      "weight": 21
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Kane",
+      "weight": 3
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Millard",
+      "weight": 9
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Piute",
+      "weight": 10
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Salt Lake",
+      "weight": 87
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Sanpete",
+      "weight": 26
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Sevier",
+      "weight": 58
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Summit",
+      "weight": 3
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Tooele",
+      "weight": 12
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Uintah",
+      "weight": 2
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Utah",
+      "weight": 143
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Wasatch",
+      "weight": 4
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Washington",
+      "weight": 38
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Wayne",
+      "weight": 50
+    },
+    {
+      "source": "Boulder/Kaiparowits",
+      "target": "Weber",
+      "weight": 9
+    },
+    {
+      "source": "Box Elder",
+      "target": "Box Elder",
+      "weight": 451
+    },
+    {
+      "source": "Box Elder",
+      "target": "Cache",
+      "weight": 60
+    },
+    {
+      "source": "Box Elder",
+      "target": "Carbon",
+      "weight": 3
+    },
+    {
+      "source": "Box Elder",
+      "target": "Daggett",
+      "weight": 3
+    },
+    {
+      "source": "Box Elder",
+      "target": "Davis",
+      "weight": 135
+    },
+    {
+      "source": "Box Elder",
+      "target": "Duchesne",
+      "weight": 23
+    },
+    {
+      "source": "Box Elder",
+      "target": "Iron",
+      "weight": 1
+    },
+    {
+      "source": "Box Elder",
+      "target": "Millard",
+      "weight": 2
+    },
+    {
+      "source": "Box Elder",
+      "target": "Morgan",
+      "weight": 5
+    },
+    {
+      "source": "Box Elder",
+      "target": "Piute",
+      "weight": 2
+    },
+    {
+      "source": "Box Elder",
+      "target": "Rich",
+      "weight": 1
+    },
+    {
+      "source": "Box Elder",
+      "target": "Salt Lake",
+      "weight": 85
+    },
+    {
+      "source": "Box Elder",
+      "target": "Sanpete",
+      "weight": 3
+    },
+    {
+      "source": "Box Elder",
+      "target": "Summit",
+      "weight": 3
+    },
+    {
+      "source": "Box Elder",
+      "target": "Tooele",
+      "weight": 54
+    },
+    {
+      "source": "Box Elder",
+      "target": "Uintah",
+      "weight": 37
+    },
+    {
+      "source": "Box Elder",
+      "target": "Utah",
+      "weight": 35
+    },
+    {
+      "source": "Box Elder",
+      "target": "Wasatch",
+      "weight": 3
+    },
+    {
+      "source": "Box Elder",
+      "target": "Washington",
+      "weight": 5
+    },
+    {
+      "source": "Box Elder",
+      "target": "Weber",
+      "weight": 239
+    },
+    {
+      "source": "Cache",
+      "target": "Box Elder",
+      "weight": 133
+    },
+    {
+      "source": "Cache",
+      "target": "Cache",
+      "weight": 356
+    },
+    {
+      "source": "Cache",
+      "target": "Davis",
+      "weight": 52
+    },
+    {
+      "source": "Cache",
+      "target": "Duchesne",
+      "weight": 2
+    },
+    {
+      "source": "Cache",
+      "target": "Morgan",
+      "weight": 10
+    },
+    {
+      "source": "Cache",
+      "target": "Rich",
+      "weight": 24
+    },
+    {
+      "source": "Cache",
+      "target": "Salt Lake",
+      "weight": 25
+    },
+    {
+      "source": "Cache",
+      "target": "Tooele",
+      "weight": 3
+    },
+    {
+      "source": "Cache",
+      "target": "Uintah",
+      "weight": 1
+    },
+    {
+      "source": "Cache",
+      "target": "Utah",
+      "weight": 14
+    },
+    {
+      "source": "Cache",
+      "target": "Weber",
+      "weight": 110
+    },
+    {
+      "source": "Chalk Creek",
+      "target": "Box Elder",
+      "weight": 12
+    },
+    {
+      "source": "Chalk Creek",
+      "target": "Cache",
+      "weight": 2
+    },
+    {
+      "source": "Chalk Creek",
+      "target": "Davis",
+      "weight": 43
+    },
+    {
+      "source": "Chalk Creek",
+      "target": "Morgan",
+      "weight": 9
+    },
+    {
+      "source": "Chalk Creek",
+      "target": "Salt Lake",
+      "weight": 58
+    },
+    {
+      "source": "Chalk Creek",
+      "target": "Sanpete",
+      "weight": 3
+    },
+    {
+      "source": "Chalk Creek",
+      "target": "Summit",
+      "weight": 65
+    },
+    {
+      "source": "Chalk Creek",
+      "target": "Tooele",
+      "weight": 4
+    },
+    {
+      "source": "Chalk Creek",
+      "target": "Utah",
+      "weight": 19
+    },
+    {
+      "source": "Chalk Creek",
+      "target": "Wasatch",
+      "weight": 7
+    },
+    {
+      "source": "Chalk Creek",
+      "target": "Washington",
+      "weight": 2
+    },
+    {
+      "source": "Chalk Creek",
+      "target": "Weber",
+      "weight": 39
+    },
+    {
+      "source": "Chalk Creek ",
+      "target": "Box Elder",
+      "weight": 2
+    },
+    {
+      "source": "Chalk Creek ",
+      "target": "Davis",
+      "weight": 8
+    },
+    {
+      "source": "Chalk Creek ",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "Chalk Creek ",
+      "target": "Salt Lake",
+      "weight": 7
+    },
+    {
+      "source": "Chalk Creek ",
+      "target": "Summit",
+      "weight": 8
+    },
+    {
+      "source": "Chalk Creek ",
+      "target": "Utah",
+      "weight": 2
+    },
+    {
+      "source": "Chalk Creek ",
+      "target": "Wasatch",
+      "weight": 2
+    },
+    {
+      "source": "Chalk Creek ",
+      "target": "Weber",
+      "weight": 9
+    },
+    {
+      "source": "Deseret",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Deseret",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "Deseret",
+      "target": "Davis",
+      "weight": 3
+    },
+    {
+      "source": "Deseret",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "Deseret",
+      "target": "Rich",
+      "weight": 2
+    },
+    {
+      "source": "Deseret",
+      "target": "Salt Lake",
+      "weight": 2
+    },
+    {
+      "source": "Deseret",
+      "target": "Sevier",
+      "weight": 2
+    },
+    {
+      "source": "Deseret",
+      "target": "Summit",
+      "weight": 2
+    },
+    {
+      "source": "Deseret",
+      "target": "Utah",
+      "weight": 5
+    },
+    {
+      "source": "Deseret",
+      "target": "Wasatch",
+      "weight": 1
+    },
+    {
+      "source": "Deseret",
+      "target": "Weber",
+      "weight": 4
+    },
+    {
+      "source": "Diamond Mtn",
+      "target": "Box Elder",
+      "weight": 2
+    },
+    {
+      "source": "Diamond Mtn",
+      "target": "Carbon",
+      "weight": 1
+    },
+    {
+      "source": "Diamond Mtn",
+      "target": "Davis",
+      "weight": 9
+    },
+    {
+      "source": "Diamond Mtn",
+      "target": "Duchesne",
+      "weight": 4
+    },
+    {
+      "source": "Diamond Mtn",
+      "target": "Emery",
+      "weight": 1
+    },
+    {
+      "source": "Diamond Mtn",
+      "target": "Iron",
+      "weight": 1
+    },
+    {
+      "source": "Diamond Mtn",
+      "target": "Juab",
+      "weight": 1
+    },
+    {
+      "source": "Diamond Mtn",
+      "target": "Salt Lake",
+      "weight": 1
+    },
+    {
+      "source": "Diamond Mtn",
+      "target": "Sanpete",
+      "weight": 1
+    },
+    {
+      "source": "Diamond Mtn",
+      "target": "Uintah",
+      "weight": 13
+    },
+    {
+      "source": "Diamond Mtn",
+      "target": "Utah",
+      "weight": 4
+    },
+    {
+      "source": "Diamond Mtn",
+      "target": "Weber",
+      "weight": 2
+    },
+    {
+      "source": "Diamond Mtn ",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Diamond Mtn ",
+      "target": "Cache",
+      "weight": 2
+    },
+    {
+      "source": "Diamond Mtn ",
+      "target": "Daggett",
+      "weight": 1
+    },
+    {
+      "source": "Diamond Mtn ",
+      "target": "Davis",
+      "weight": 2
+    },
+    {
+      "source": "Diamond Mtn ",
+      "target": "Duchesne",
+      "weight": 13
+    },
+    {
+      "source": "Diamond Mtn ",
+      "target": "Iron",
+      "weight": 1
+    },
+    {
+      "source": "Diamond Mtn ",
+      "target": "Salt Lake",
+      "weight": 7
+    },
+    {
+      "source": "Diamond Mtn ",
+      "target": "Summit",
+      "weight": 2
+    },
+    {
+      "source": "Diamond Mtn ",
+      "target": "Uintah",
+      "weight": 46
+    },
+    {
+      "source": "Diamond Mtn ",
+      "target": "Utah",
+      "weight": 8
+    },
+    {
+      "source": "Diamond Mtn ",
+      "target": "Wasatch",
+      "weight": 1
+    },
+    {
+      "source": "Diamond Mtn ",
+      "target": "Weber",
+      "weight": 5
+    },
+    {
+      "source": "East Canyon",
+      "target": "Box Elder",
+      "weight": 4
+    },
+    {
+      "source": "East Canyon",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "East Canyon",
+      "target": "Davis",
+      "weight": 90
+    },
+    {
+      "source": "East Canyon",
+      "target": "Morgan",
+      "weight": 40
+    },
+    {
+      "source": "East Canyon",
+      "target": "Salt Lake",
+      "weight": 49
+    },
+    {
+      "source": "East Canyon",
+      "target": "Summit",
+      "weight": 18
+    },
+    {
+      "source": "East Canyon",
+      "target": "Tooele",
+      "weight": 1
+    },
+    {
+      "source": "East Canyon",
+      "target": "Utah",
+      "weight": 4
+    },
+    {
+      "source": "East Canyon",
+      "target": "Weber",
+      "weight": 40
+    },
+    {
+      "source": "East Fork Chalk Creek",
+      "target": "Davis",
+      "weight": 16
+    },
+    {
+      "source": "East Fork Chalk Creek",
+      "target": "Salt Lake",
+      "weight": 2
+    },
+    {
+      "source": "East Fork Chalk Creek",
+      "target": "Sevier",
+      "weight": 1
+    },
+    {
+      "source": "East Fork Chalk Creek",
+      "target": "Utah",
+      "weight": 3
+    },
+    {
+      "source": "East Fork Chalk Creek",
+      "target": "Weber",
+      "weight": 3
+    },
+    {
+      "source": "Fillmore",
+      "target": "Beaver",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore",
+      "target": "Carbon",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore",
+      "target": "Davis",
+      "weight": 3
+    },
+    {
+      "source": "Fillmore",
+      "target": "Iron",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore",
+      "target": "Juab",
+      "weight": 3
+    },
+    {
+      "source": "Fillmore",
+      "target": "Millard",
+      "weight": 52
+    },
+    {
+      "source": "Fillmore",
+      "target": "Salt Lake",
+      "weight": 8
+    },
+    {
+      "source": "Fillmore",
+      "target": "Sanpete",
+      "weight": 2
+    },
+    {
+      "source": "Fillmore",
+      "target": "Sevier",
+      "weight": 26
+    },
+    {
+      "source": "Fillmore",
+      "target": "Tooele",
+      "weight": 2
+    },
+    {
+      "source": "Fillmore",
+      "target": "Uintah",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore",
+      "target": "Utah",
+      "weight": 20
+    },
+    {
+      "source": "Fillmore",
+      "target": "Wasatch",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore",
+      "target": "Washington",
+      "weight": 2
+    },
+    {
+      "source": "Fillmore",
+      "target": "Weber",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Beaver",
+      "weight": 3
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Box Elder",
+      "weight": 5
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Cache",
+      "weight": 2
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Carbon",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Davis",
+      "weight": 18
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Duchesne",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Iron",
+      "weight": 7
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Juab",
+      "weight": 11
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Millard",
+      "weight": 165
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Piute",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Salt Lake",
+      "weight": 57
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Sanpete",
+      "weight": 7
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Sevier",
+      "weight": 85
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Summit",
+      "weight": 3
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Tooele",
+      "weight": 8
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Utah",
+      "weight": 102
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Wasatch",
+      "weight": 2
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Washington",
+      "weight": 11
+    },
+    {
+      "source": "Fillmore ",
+      "target": "Weber",
+      "weight": 25
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Davis",
+      "weight": 5
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Juab",
+      "weight": 5
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Millard",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Salt Lake",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Sanpete",
+      "weight": 4
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Sevier",
+      "weight": 3
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Tooele",
+      "weight": 2
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Utah",
+      "weight": 7
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Wasatch",
+      "weight": 1
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Washington",
+      "weight": 2
+    },
+    {
+      "source": "Fillmore, Oak Creek LE ",
+      "target": "Weber",
+      "weight": 3
+    },
+    {
+      "source": "Fishlake",
+      "target": "Beaver",
+      "weight": 1
+    },
+    {
+      "source": "Fishlake",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Fishlake",
+      "target": "Cache",
+      "weight": 2
+    },
+    {
+      "source": "Fishlake",
+      "target": "Carbon",
+      "weight": 5
+    },
+    {
+      "source": "Fishlake",
+      "target": "Davis",
+      "weight": 16
+    },
+    {
+      "source": "Fishlake",
+      "target": "Emery",
+      "weight": 4
+    },
+    {
+      "source": "Fishlake",
+      "target": "Grand",
+      "weight": 1
+    },
+    {
+      "source": "Fishlake",
+      "target": "Iron",
+      "weight": 7
+    },
+    {
+      "source": "Fishlake",
+      "target": "Juab",
+      "weight": 11
+    },
+    {
+      "source": "Fishlake",
+      "target": "Kane",
+      "weight": 1
+    },
+    {
+      "source": "Fishlake",
+      "target": "Millard",
+      "weight": 1
+    },
+    {
+      "source": "Fishlake",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "Fishlake",
+      "target": "Salt Lake",
+      "weight": 58
+    },
+    {
+      "source": "Fishlake",
+      "target": "Sanpete",
+      "weight": 10
+    },
+    {
+      "source": "Fishlake",
+      "target": "Sevier",
+      "weight": 106
+    },
+    {
+      "source": "Fishlake",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "Fishlake",
+      "target": "Tooele",
+      "weight": 14
+    },
+    {
+      "source": "Fishlake",
+      "target": "Uintah",
+      "weight": 1
+    },
+    {
+      "source": "Fishlake",
+      "target": "Utah",
+      "weight": 71
+    },
+    {
+      "source": "Fishlake",
+      "target": "Wasatch",
+      "weight": 2
+    },
+    {
+      "source": "Fishlake",
+      "target": "Washington",
+      "weight": 8
+    },
+    {
+      "source": "Fishlake",
+      "target": "Wayne",
+      "weight": 22
+    },
+    {
+      "source": "Fishlake",
+      "target": "Weber",
+      "weight": 23
+    },
+    {
+      "source": "Grass Valley/Clark Canyon",
+      "target": "Davis",
+      "weight": 3
+    },
+    {
+      "source": "Grass Valley/Clark Canyon",
+      "target": "Iron",
+      "weight": 1
+    },
+    {
+      "source": "Grass Valley/Clark Canyon",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "Grass Valley/Clark Canyon",
+      "target": "Salt Lake",
+      "weight": 5
+    },
+    {
+      "source": "Grass Valley/Clark Canyon",
+      "target": "Sevier",
+      "weight": 1
+    },
+    {
+      "source": "Grass Valley/Clark Canyon",
+      "target": "Summit",
+      "weight": 5
+    },
+    {
+      "source": "Grass Valley/Clark Canyon",
+      "target": "Tooele",
+      "weight": 1
+    },
+    {
+      "source": "Grass Valley/Clark Canyon",
+      "target": "Utah",
+      "weight": 5
+    },
+    {
+      "source": "Grass Valley/Clark Canyon",
+      "target": "Weber",
+      "weight": 8
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Carbon",
+      "weight": 3
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Davis",
+      "weight": 2
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Duchesne",
+      "weight": 1
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Emery",
+      "weight": 2
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Iron",
+      "weight": 1
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Salt Lake",
+      "weight": 5
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Sanpete",
+      "weight": 1
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Sevier",
+      "weight": 2
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Tooele",
+      "weight": 3
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Uintah",
+      "weight": 1
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Utah",
+      "weight": 12
+    },
+    {
+      "source": "Henry Mtns",
+      "target": "Weber",
+      "weight": 5
+    },
+    {
+      "source": "Junction Valley",
+      "target": "Box Elder",
+      "weight": 3
+    },
+    {
+      "source": "Junction Valley",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "Junction Valley",
+      "target": "Davis",
+      "weight": 3
+    },
+    {
+      "source": "Junction Valley",
+      "target": "Salt Lake",
+      "weight": 5
+    },
+    {
+      "source": "Junction Valley",
+      "target": "Utah",
+      "weight": 18
+    },
+    {
+      "source": "Junction Valley",
+      "target": "Washington",
+      "weight": 1
+    },
+    {
+      "source": "Junction Valley",
+      "target": "Weber",
+      "weight": 2
+    },
+    {
+      "source": "Kamas",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Kamas",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "Kamas",
+      "target": "Davis",
+      "weight": 7
+    },
+    {
+      "source": "Kamas",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "Kamas",
+      "target": "Salt Lake",
+      "weight": 25
+    },
+    {
+      "source": "Kamas",
+      "target": "Summit",
+      "weight": 31
+    },
+    {
+      "source": "Kamas",
+      "target": "Tooele",
+      "weight": 3
+    },
+    {
+      "source": "Kamas",
+      "target": "Utah",
+      "weight": 20
+    },
+    {
+      "source": "Kamas",
+      "target": "Wasatch",
+      "weight": 2
+    },
+    {
+      "source": "Kamas",
+      "target": "Washington",
+      "weight": 1
+    },
+    {
+      "source": "Kamas",
+      "target": "Weber",
+      "weight": 5
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Box Elder",
+      "weight": 7
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Cache",
+      "weight": 3
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Carbon",
+      "weight": 5
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Davis",
+      "weight": 39
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Duchesne",
+      "weight": 6
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Emery",
+      "weight": 7
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Grand",
+      "weight": 164
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Iron",
+      "weight": 3
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Juab",
+      "weight": 6
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Kane",
+      "weight": 3
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Millard",
+      "weight": 2
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Salt Lake",
+      "weight": 63
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "San Juan",
+      "weight": 25
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Sanpete",
+      "weight": 4
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Summit",
+      "weight": 2
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Tooele",
+      "weight": 12
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Uintah",
+      "weight": 3
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Utah",
+      "weight": 106
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Wasatch",
+      "weight": 5
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Washington",
+      "weight": 6
+    },
+    {
+      "source": "La Sal, La Sal Mtns",
+      "target": "Weber",
+      "weight": 39
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Beaver",
+      "weight": 3
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Box Elder",
+      "weight": 16
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Cache",
+      "weight": 12
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Carbon",
+      "weight": 192
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Davis",
+      "weight": 65
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Duchesne",
+      "weight": 4
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Emery",
+      "weight": 279
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Grand",
+      "weight": 2
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Iron",
+      "weight": 10
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Juab",
+      "weight": 41
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Kane",
+      "weight": 1
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Millard",
+      "weight": 11
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Morgan",
+      "weight": 5
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Piute",
+      "weight": 2
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Salt Lake",
+      "weight": 266
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Sanpete",
+      "weight": 401
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Sevier",
+      "weight": 69
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Summit",
+      "weight": 10
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Tooele",
+      "weight": 40
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Uintah",
+      "weight": 7
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Utah",
+      "weight": 559
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Wasatch",
+      "weight": 10
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Washington",
+      "weight": 21
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Washtenaw",
+      "weight": 1
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Wayne",
+      "weight": 4
+    },
+    {
+      "source": "Manti/San Rafael",
+      "target": "Weber",
+      "weight": 51
+    },
+    {
+      "source": "Manti/San Rafael ",
+      "target": "Carbon",
+      "weight": 3
+    },
+    {
+      "source": "Manti/San Rafael ",
+      "target": "Emery",
+      "weight": 5
+    },
+    {
+      "source": "Manti/San Rafael ",
+      "target": "Iron",
+      "weight": 1
+    },
+    {
+      "source": "Manti/San Rafael ",
+      "target": "Salt Lake",
+      "weight": 5
+    },
+    {
+      "source": "Manti/San Rafael ",
+      "target": "Sanpete",
+      "weight": 2
+    },
+    {
+      "source": "Manti/San Rafael ",
+      "target": "Sevier",
+      "weight": 3
+    },
+    {
+      "source": "Manti/San Rafael ",
+      "target": "Utah",
+      "weight": 7
+    },
+    {
+      "source": "Monroe",
+      "target": "Box Elder",
+      "weight": 5
+    },
+    {
+      "source": "Monroe",
+      "target": "Cache",
+      "weight": 5
+    },
+    {
+      "source": "Monroe",
+      "target": "Carbon",
+      "weight": 1
+    },
+    {
+      "source": "Monroe",
+      "target": "Davis",
+      "weight": 18
+    },
+    {
+      "source": "Monroe",
+      "target": "Iron",
+      "weight": 7
+    },
+    {
+      "source": "Monroe",
+      "target": "Juab",
+      "weight": 5
+    },
+    {
+      "source": "Monroe",
+      "target": "Millard",
+      "weight": 1
+    },
+    {
+      "source": "Monroe",
+      "target": "Morgan",
+      "weight": 2
+    },
+    {
+      "source": "Monroe",
+      "target": "Piute",
+      "weight": 13
+    },
+    {
+      "source": "Monroe",
+      "target": "Salt Lake",
+      "weight": 32
+    },
+    {
+      "source": "Monroe",
+      "target": "Sanpete",
+      "weight": 3
+    },
+    {
+      "source": "Monroe",
+      "target": "Sevier",
+      "weight": 156
+    },
+    {
+      "source": "Monroe",
+      "target": "Tooele",
+      "weight": 9
+    },
+    {
+      "source": "Monroe",
+      "target": "Utah",
+      "weight": 62
+    },
+    {
+      "source": "Monroe",
+      "target": "Washington",
+      "weight": 13
+    },
+    {
+      "source": "Monroe",
+      "target": "Weber",
+      "weight": 14
+    },
+    {
+      "source": "Morgan-South Rich",
+      "target": "Davis",
+      "weight": 12
+    },
+    {
+      "source": "Morgan-South Rich",
+      "target": "Morgan",
+      "weight": 7
+    },
+    {
+      "source": "Morgan-South Rich",
+      "target": "Rich",
+      "weight": 2
+    },
+    {
+      "source": "Morgan-South Rich",
+      "target": "Salt Lake",
+      "weight": 10
+    },
+    {
+      "source": "Morgan-South Rich",
+      "target": "Summit",
+      "weight": 3
+    },
+    {
+      "source": "Morgan-South Rich",
+      "target": "Tooele",
+      "weight": 1
+    },
+    {
+      "source": "Morgan-South Rich",
+      "target": "Weber",
+      "weight": 30
+    },
+    {
+      "source": "Morgan-South Rich ",
+      "target": "Davis",
+      "weight": 9
+    },
+    {
+      "source": "Morgan-South Rich ",
+      "target": "Morgan",
+      "weight": 22
+    },
+    {
+      "source": "Morgan-South Rich ",
+      "target": "Salt Lake",
+      "weight": 7
+    },
+    {
+      "source": "Morgan-South Rich ",
+      "target": "Summit",
+      "weight": 5
+    },
+    {
+      "source": "Morgan-South Rich ",
+      "target": "Utah",
+      "weight": 1
+    },
+    {
+      "source": "Morgan-South Rich ",
+      "target": "Weber",
+      "weight": 28
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Beaver",
+      "weight": 1
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Davis",
+      "weight": 7
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Garfield",
+      "weight": 22
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Iron",
+      "weight": 12
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Kane",
+      "weight": 4
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Piute",
+      "weight": 12
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Salt Lake",
+      "weight": 10
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Sanpete",
+      "weight": 3
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Sevier",
+      "weight": 12
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Tooele",
+      "weight": 1
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Utah",
+      "weight": 35
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Wasatch",
+      "weight": 1
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Washington",
+      "weight": 12
+    },
+    {
+      "source": "Mt Dutton",
+      "target": "Weber",
+      "weight": 4
+    },
+    {
+      "source": "Myton ",
+      "target": "Carbon",
+      "weight": 2
+    },
+    {
+      "source": "Myton ",
+      "target": "Duchesne",
+      "weight": 9
+    },
+    {
+      "source": "Myton ",
+      "target": "Salt Lake",
+      "weight": 1
+    },
+    {
+      "source": "Myton ",
+      "target": "Sevier",
+      "weight": 1
+    },
+    {
+      "source": "Myton ",
+      "target": "Tooele",
+      "weight": 1
+    },
+    {
+      "source": "Myton ",
+      "target": "Uintah",
+      "weight": 2
+    },
+    {
+      "source": "Myton ",
+      "target": "Utah",
+      "weight": 5
+    },
+    {
+      "source": "Nebo",
+      "target": "Box Elder",
+      "weight": 3
+    },
+    {
+      "source": "Nebo",
+      "target": "Cache",
+      "weight": 4
+    },
+    {
+      "source": "Nebo",
+      "target": "Carbon",
+      "weight": 3
+    },
+    {
+      "source": "Nebo",
+      "target": "Davis",
+      "weight": 25
+    },
+    {
+      "source": "Nebo",
+      "target": "Duchesne",
+      "weight": 1
+    },
+    {
+      "source": "Nebo",
+      "target": "Iron",
+      "weight": 1
+    },
+    {
+      "source": "Nebo",
+      "target": "Juab",
+      "weight": 171
+    },
+    {
+      "source": "Nebo",
+      "target": "Millard",
+      "weight": 2
+    },
+    {
+      "source": "Nebo",
+      "target": "Morgan",
+      "weight": 2
+    },
+    {
+      "source": "Nebo",
+      "target": "Salt Lake",
+      "weight": 96
+    },
+    {
+      "source": "Nebo",
+      "target": "Sanpete",
+      "weight": 158
+    },
+    {
+      "source": "Nebo",
+      "target": "Sevier",
+      "weight": 9
+    },
+    {
+      "source": "Nebo",
+      "target": "Summit",
+      "weight": 5
+    },
+    {
+      "source": "Nebo",
+      "target": "Tooele",
+      "weight": 15
+    },
+    {
+      "source": "Nebo",
+      "target": "Utah",
+      "weight": 474
+    },
+    {
+      "source": "Nebo",
+      "target": "Wasatch",
+      "weight": 6
+    },
+    {
+      "source": "Nebo",
+      "target": "Washington",
+      "weight": 6
+    },
+    {
+      "source": "Nebo",
+      "target": "Weber",
+      "weight": 14
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Box Elder",
+      "weight": 4
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Carbon",
+      "weight": 138
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Cassia",
+      "weight": 1
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Duchesne",
+      "weight": 77
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Emery",
+      "weight": 18
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Grand",
+      "weight": 1
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Iron",
+      "weight": 2
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Juab",
+      "weight": 4
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Salt Lake",
+      "weight": 39
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Sevier",
+      "weight": 2
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Tooele",
+      "weight": 3
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Uintah",
+      "weight": 11
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Utah",
+      "weight": 23
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Wasatch",
+      "weight": 2
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Washington",
+      "weight": 4
+    },
+    {
+      "source": "Nine Mile",
+      "target": "Weber",
+      "weight": 6
+    },
+    {
+      "source": "North Slope",
+      "target": "Box Elder",
+      "weight": 6
+    },
+    {
+      "source": "North Slope",
+      "target": "Cache",
+      "weight": 7
+    },
+    {
+      "source": "North Slope",
+      "target": "Daggett",
+      "weight": 16
+    },
+    {
+      "source": "North Slope",
+      "target": "Davis",
+      "weight": 55
+    },
+    {
+      "source": "North Slope",
+      "target": "Duchesne",
+      "weight": 14
+    },
+    {
+      "source": "North Slope",
+      "target": "Emery",
+      "weight": 1
+    },
+    {
+      "source": "North Slope",
+      "target": "Juab",
+      "weight": 1
+    },
+    {
+      "source": "North Slope",
+      "target": "Morgan",
+      "weight": 2
+    },
+    {
+      "source": "North Slope",
+      "target": "Rich",
+      "weight": 1
+    },
+    {
+      "source": "North Slope",
+      "target": "Salt Lake",
+      "weight": 73
+    },
+    {
+      "source": "North Slope",
+      "target": "Sanpete",
+      "weight": 2
+    },
+    {
+      "source": "North Slope",
+      "target": "Summit",
+      "weight": 2
+    },
+    {
+      "source": "North Slope",
+      "target": "Tooele",
+      "weight": 9
+    },
+    {
+      "source": "North Slope",
+      "target": "Uintah",
+      "weight": 111
+    },
+    {
+      "source": "North Slope",
+      "target": "Utah",
+      "weight": 33
+    },
+    {
+      "source": "North Slope",
+      "target": "Wasatch",
+      "weight": 3
+    },
+    {
+      "source": "North Slope",
+      "target": "Washington",
+      "weight": 2
+    },
+    {
+      "source": "North Slope",
+      "target": "Weber",
+      "weight": 51
+    },
+    {
+      "source": "Ogden",
+      "target": "Box Elder",
+      "weight": 49
+    },
+    {
+      "source": "Ogden",
+      "target": "Cache",
+      "weight": 57
+    },
+    {
+      "source": "Ogden",
+      "target": "Davis",
+      "weight": 26
+    },
+    {
+      "source": "Ogden",
+      "target": "Morgan",
+      "weight": 5
+    },
+    {
+      "source": "Ogden",
+      "target": "Salt Lake",
+      "weight": 7
+    },
+    {
+      "source": "Ogden",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "Ogden",
+      "target": "Utah",
+      "weight": 3
+    },
+    {
+      "source": "Ogden",
+      "target": "Wasatch",
+      "weight": 1
+    },
+    {
+      "source": "Ogden",
+      "target": "Washington",
+      "weight": 2
+    },
+    {
+      "source": "Ogden",
+      "target": "Weber",
+      "weight": 167
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Box Elder",
+      "weight": 2
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Cache",
+      "weight": 6
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Carbon",
+      "weight": 1
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Davis",
+      "weight": 26
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Duchesne",
+      "weight": 1
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Juab",
+      "weight": 4
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Millard",
+      "weight": 1
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Morgan",
+      "weight": 6
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Salt Lake",
+      "weight": 142
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Tooele",
+      "weight": 406
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Uintah",
+      "weight": 2
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Utah",
+      "weight": 184
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Washington",
+      "weight": 2
+    },
+    {
+      "source": "Oquirrh-Stansbury",
+      "target": "Weber",
+      "weight": 9
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Beaver",
+      "weight": 10
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Box Elder",
+      "weight": 3
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Cache",
+      "weight": 2
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Carbon",
+      "weight": 3
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Davis",
+      "weight": 12
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Emery",
+      "weight": 5
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Garfield",
+      "weight": 76
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Iron",
+      "weight": 275
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Juab",
+      "weight": 7
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Kane",
+      "weight": 29
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Millard",
+      "weight": 3
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Morgan",
+      "weight": 4
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Salt Lake",
+      "weight": 48
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Sanpete",
+      "weight": 4
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Sevier",
+      "weight": 3
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Tooele",
+      "weight": 11
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Uintah",
+      "weight": 1
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Utah",
+      "weight": 61
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Wasatch",
+      "weight": 4
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Washington",
+      "weight": 112
+    },
+    {
+      "source": "Panguitch Lake",
+      "target": "Weber",
+      "weight": 2
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Beaver",
+      "weight": 2
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Davis",
+      "weight": 3
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Garfield",
+      "weight": 22
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Iron",
+      "weight": 51
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Kane",
+      "weight": 3
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Morgan",
+      "weight": 2
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Piute",
+      "weight": 1
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Salt Lake",
+      "weight": 10
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Sevier",
+      "weight": 2
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Uintah",
+      "weight": 1
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Utah",
+      "weight": 6
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Washington",
+      "weight": 23
+    },
+    {
+      "source": "Panguitch Lake ",
+      "target": "Weber",
+      "weight": 6
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Beaver",
+      "weight": 5
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Davis",
+      "weight": 8
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Duchesne",
+      "weight": 1
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Emery",
+      "weight": 3
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Garfield",
+      "weight": 3
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Iron",
+      "weight": 8
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Juab",
+      "weight": 3
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Kane",
+      "weight": 8
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Millard",
+      "weight": 3
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Salt Lake",
+      "weight": 21
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "San Juan",
+      "weight": 1
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Sanpete",
+      "weight": 5
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Sevier",
+      "weight": 7
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Tooele",
+      "weight": 3
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Utah",
+      "weight": 33
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Washington",
+      "weight": 5
+    },
+    {
+      "source": "Paunsaugunt",
+      "target": "Weber",
+      "weight": 5
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Beaver",
+      "weight": 5
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Box Elder",
+      "weight": 5
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Cache",
+      "weight": 4
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Davis",
+      "weight": 22
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Duchesne",
+      "weight": 1
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Emery",
+      "weight": 2
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Iron",
+      "weight": 165
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Juab",
+      "weight": 9
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Kane",
+      "weight": 2
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Millard",
+      "weight": 10
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Morgan",
+      "weight": 2
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Piute",
+      "weight": 1
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Salt Lake",
+      "weight": 28
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Sanpete",
+      "weight": 3
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Sevier",
+      "weight": 4
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Tooele",
+      "weight": 3
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Uintah",
+      "weight": 4
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Utah",
+      "weight": 51
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Wasatch",
+      "weight": 6
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Washington",
+      "weight": 611
+    },
+    {
+      "source": "Pine Valley",
+      "target": "Weber",
+      "weight": 16
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Beaver",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Cache",
+      "weight": 16
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Carbon",
+      "weight": 14
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Coconino",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Daggett",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Davis",
+      "weight": 26
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Duchesne",
+      "weight": 8
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Emery",
+      "weight": 5
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Grand",
+      "weight": 13
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Iron",
+      "weight": 7
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Juab",
+      "weight": 11
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Millard",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Salt Lake",
+      "weight": 82
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "San Juan",
+      "weight": 317
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Sanpete",
+      "weight": 12
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Sevier",
+      "weight": 6
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Tooele",
+      "weight": 10
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Uintah",
+      "weight": 7
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Utah",
+      "weight": 116
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Wasatch",
+      "weight": 7
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Washington",
+      "weight": 19
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Wayne",
+      "weight": 3
+    },
+    {
+      "source": "San Juan, Abajo Mtns",
+      "target": "Weber",
+      "weight": 11
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Carbon",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Davis",
+      "weight": 2
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Duchesne",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Emery",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Grand",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Millard",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Salt Lake",
+      "weight": 4
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "San Juan",
+      "weight": 6
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Sanpete",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Tooele",
+      "weight": 2
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Uintah",
+      "weight": 1
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Utah",
+      "weight": 24
+    },
+    {
+      "source": "San Juan, Elk Ridge",
+      "target": "Wasatch",
+      "weight": 2
+    },
+    {
+      "source": "Southeastern Navajo Buck Deer",
+      "target": "Coconino",
+      "weight": 10
+    },
+    {
+      "source": "Southeastern Navajo Buck Deer",
+      "target": "Grand",
+      "weight": 3
+    },
+    {
+      "source": "Southeastern Navajo Buck Deer",
+      "target": "Salt Lake",
+      "weight": 2
+    },
+    {
+      "source": "Southeastern Navajo Buck Deer",
+      "target": "San Juan",
+      "weight": 51
+    },
+    {
+      "source": "Southeastern Navajo Buck Deer",
+      "target": "Washington",
+      "weight": 6
+    },
+    {
+      "source": "Southwest Desert",
+      "target": "Beaver",
+      "weight": 54
+    },
+    {
+      "source": "Southwest Desert",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Southwest Desert",
+      "target": "Davis",
+      "weight": 1
+    },
+    {
+      "source": "Southwest Desert",
+      "target": "Garfield",
+      "weight": 1
+    },
+    {
+      "source": "Southwest Desert",
+      "target": "Iron",
+      "weight": 25
+    },
+    {
+      "source": "Southwest Desert",
+      "target": "Juab",
+      "weight": 1
+    },
+    {
+      "source": "Southwest Desert",
+      "target": "Millard",
+      "weight": 8
+    },
+    {
+      "source": "Southwest Desert",
+      "target": "Salt Lake",
+      "weight": 5
+    },
+    {
+      "source": "Southwest Desert",
+      "target": "Sanpete",
+      "weight": 1
+    },
+    {
+      "source": "Southwest Desert",
+      "target": "Utah",
+      "weight": 2
+    },
+    {
+      "source": "Southwest Desert",
+      "target": "Wasatch",
+      "weight": 1
+    },
+    {
+      "source": "Southwest Desert",
+      "target": "Washington",
+      "weight": 24
+    },
+    {
+      "source": "Spring Creek/Dodge",
+      "target": "Cache",
+      "weight": 2
+    },
+    {
+      "source": "Spring Creek/Dodge",
+      "target": "Davis",
+      "weight": 1
+    },
+    {
+      "source": "Spring Creek/Dodge",
+      "target": "Juab",
+      "weight": 1
+    },
+    {
+      "source": "Spring Creek/Dodge",
+      "target": "Salt Lake",
+      "weight": 1
+    },
+    {
+      "source": "Spring Creek/Dodge",
+      "target": "San Juan",
+      "weight": 4
+    },
+    {
+      "source": "Spring Creek/Dodge",
+      "target": "Utah",
+      "weight": 12
+    },
+    {
+      "source": "Spring Creek/Dodge",
+      "target": "Washington",
+      "weight": 3
+    },
+    {
+      "source": "Spring Creek/Dodge",
+      "target": "Weber",
+      "weight": 1
+    },
+    {
+      "source": "Thousand Lakes",
+      "target": "Carbon",
+      "weight": 1
+    },
+    {
+      "source": "Thousand Lakes",
+      "target": "Davis",
+      "weight": 2
+    },
+    {
+      "source": "Thousand Lakes",
+      "target": "Duchesne",
+      "weight": 1
+    },
+    {
+      "source": "Thousand Lakes",
+      "target": "Emery",
+      "weight": 1
+    },
+    {
+      "source": "Thousand Lakes",
+      "target": "Juab",
+      "weight": 2
+    },
+    {
+      "source": "Thousand Lakes",
+      "target": "Salt Lake",
+      "weight": 5
+    },
+    {
+      "source": "Thousand Lakes",
+      "target": "Sevier",
+      "weight": 2
+    },
+    {
+      "source": "Thousand Lakes",
+      "target": "Tooele",
+      "weight": 2
+    },
+    {
+      "source": "Thousand Lakes",
+      "target": "Utah",
+      "weight": 3
+    },
+    {
+      "source": "Thousand Lakes",
+      "target": "Washington",
+      "weight": 1
+    },
+    {
+      "source": "Thousand Lakes",
+      "target": "Wayne",
+      "weight": 17
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Box Elder",
+      "weight": 1
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Davis",
+      "weight": 15
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Duchesne",
+      "weight": 37
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Emery",
+      "weight": 1
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Juab",
+      "weight": 1
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Salt Lake",
+      "weight": 20
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Sanpete",
+      "weight": 2
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Sevier",
+      "weight": 1
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Tooele",
+      "weight": 4
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Uintah",
+      "weight": 371
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Utah",
+      "weight": 20
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Wasatch",
+      "weight": 1
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Washington",
+      "weight": 1
+    },
+    {
+      "source": "Vernal/Bonanza",
+      "target": "Weber",
+      "weight": 6
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Box Elder",
+      "weight": 8
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Cache",
+      "weight": 2
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Carbon",
+      "weight": 16
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Davis",
+      "weight": 50
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Duchesne",
+      "weight": 71
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Emery",
+      "weight": 2
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Grand",
+      "weight": 1
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Juab",
+      "weight": 5
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Millard",
+      "weight": 1
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Morgan",
+      "weight": 2
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Salt Lake",
+      "weight": 240
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Sanpete",
+      "weight": 6
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Sevier",
+      "weight": 2
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Summit",
+      "weight": 31
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Tooele",
+      "weight": 40
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Uintah",
+      "weight": 11
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Utah",
+      "weight": 249
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Wasatch",
+      "weight": 85
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Washington",
+      "weight": 5
+    },
+    {
+      "source": "Wasatch Mtns, East",
+      "target": "Weber",
+      "weight": 39
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Box Elder",
+      "weight": 3
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Carbon",
+      "weight": 7
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Davis",
+      "weight": 17
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Duchesne",
+      "weight": 12
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Iron",
+      "weight": 4
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Juab",
+      "weight": 1
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Morgan",
+      "weight": 2
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Salt Lake",
+      "weight": 78
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Sanpete",
+      "weight": 3
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Tooele",
+      "weight": 10
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Uintah",
+      "weight": 5
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Utah",
+      "weight": 56
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Wasatch",
+      "weight": 20
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Washington",
+      "weight": 1
+    },
+    {
+      "source": "Wasatch Mtns, East ",
+      "target": "Weber",
+      "weight": 11
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Cache",
+      "weight": 3
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Carbon",
+      "weight": 1
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Davis",
+      "weight": 14
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Duchesne",
+      "weight": 7
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Juab",
+      "weight": 6
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Salt Lake",
+      "weight": 120
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Sanpete",
+      "weight": 3
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Summit",
+      "weight": 4
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Tooele",
+      "weight": 17
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Uintah",
+      "weight": 9
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Utah",
+      "weight": 486
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Wasatch",
+      "weight": 53
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Washington",
+      "weight": 5
+    },
+    {
+      "source": "Wasatch Mtns, West",
+      "target": "Weber",
+      "weight": 14
+    },
+    {
+      "source": "West Desert, Tintic",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, Tintic",
+      "target": "Carbon",
+      "weight": 3
+    },
+    {
+      "source": "West Desert, Tintic",
+      "target": "Juab",
+      "weight": 61
+    },
+    {
+      "source": "West Desert, Tintic",
+      "target": "Millard",
+      "weight": 17
+    },
+    {
+      "source": "West Desert, Tintic",
+      "target": "Salt Lake",
+      "weight": 14
+    },
+    {
+      "source": "West Desert, Tintic",
+      "target": "Sevier",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, Tintic",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, Tintic",
+      "target": "Tooele",
+      "weight": 9
+    },
+    {
+      "source": "West Desert, Tintic",
+      "target": "Utah",
+      "weight": 109
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Beaver",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Box Elder",
+      "weight": 3
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Davis",
+      "weight": 6
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Duchesne",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Emery",
+      "weight": 2
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Iron",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Juab",
+      "weight": 10
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Millard",
+      "weight": 8
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Salt Lake",
+      "weight": 31
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Sanpete",
+      "weight": 3
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Sevier",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Tooele",
+      "weight": 21
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Uintah",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Utah",
+      "weight": 61
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Wasatch",
+      "weight": 3
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Washington",
+      "weight": 2
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Wayne",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, Vernon",
+      "target": "Weber",
+      "weight": 2
+    },
+    {
+      "source": "West Desert, West",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, West",
+      "target": "Davis",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, West",
+      "target": "Duchesne",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, West",
+      "target": "Emery",
+      "weight": 1
+    },
+    {
+      "source": "West Desert, West",
+      "target": "Juab",
+      "weight": 6
+    },
+    {
+      "source": "West Desert, West",
+      "target": "Millard",
+      "weight": 10
+    },
+    {
+      "source": "West Desert, West",
+      "target": "Salt Lake",
+      "weight": 8
+    },
+    {
+      "source": "West Desert, West",
+      "target": "Sevier",
+      "weight": 2
+    },
+    {
+      "source": "West Desert, West",
+      "target": "Tooele",
+      "weight": 27
+    },
+    {
+      "source": "West Desert, West",
+      "target": "Utah",
+      "weight": 13
+    },
+    {
+      "source": "West Desert, West",
+      "target": "Washington",
+      "weight": 3
+    },
+    {
+      "source": "West Desert, West",
+      "target": "Weber",
+      "weight": 2
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Beaver",
+      "weight": 1
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Box Elder",
+      "weight": 3
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Cache",
+      "weight": 1
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Carbon",
+      "weight": 1
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Daggett",
+      "weight": 1
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Davis",
+      "weight": 13
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Duchesne",
+      "weight": 236
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Emery",
+      "weight": 1
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Iron",
+      "weight": 1
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Juab",
+      "weight": 3
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Millard",
+      "weight": 1
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Morgan",
+      "weight": 1
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Salt Lake",
+      "weight": 45
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Sanpete",
+      "weight": 1
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Summit",
+      "weight": 6
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Tooele",
+      "weight": 11
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Uintah",
+      "weight": 22
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Utah",
+      "weight": 21
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Wasatch",
+      "weight": 4
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Washington",
+      "weight": 2
+    },
+    {
+      "source": "Yellowstone",
+      "target": "Weber",
+      "weight": 12
+    },
+    {
+      "source": "Zion",
+      "target": "Beaver",
+      "weight": 12
+    },
+    {
+      "source": "Zion",
+      "target": "Box Elder",
+      "weight": 6
+    },
+    {
+      "source": "Zion",
+      "target": "Cache",
+      "weight": 4
+    },
+    {
+      "source": "Zion",
+      "target": "Carbon",
+      "weight": 5
+    },
+    {
+      "source": "Zion",
+      "target": "Davis",
+      "weight": 9
+    },
+    {
+      "source": "Zion",
+      "target": "Duchesne",
+      "weight": 1
+    },
+    {
+      "source": "Zion",
+      "target": "Emery",
+      "weight": 2
+    },
+    {
+      "source": "Zion",
+      "target": "Garfield",
+      "weight": 3
+    },
+    {
+      "source": "Zion",
+      "target": "Iron",
+      "weight": 243
+    },
+    {
+      "source": "Zion",
+      "target": "Juab",
+      "weight": 7
+    },
+    {
+      "source": "Zion",
+      "target": "Kane",
+      "weight": 210
+    },
+    {
+      "source": "Zion",
+      "target": "Millard",
+      "weight": 10
+    },
+    {
+      "source": "Zion",
+      "target": "Morgan",
+      "weight": 3
+    },
+    {
+      "source": "Zion",
+      "target": "Piute",
+      "weight": 1
+    },
+    {
+      "source": "Zion",
+      "target": "Salt Lake",
+      "weight": 36
+    },
+    {
+      "source": "Zion",
+      "target": "San Juan",
+      "weight": 4
+    },
+    {
+      "source": "Zion",
+      "target": "Sanpete",
+      "weight": 6
+    },
+    {
+      "source": "Zion",
+      "target": "Sevier",
+      "weight": 18
+    },
+    {
+      "source": "Zion",
+      "target": "Summit",
+      "weight": 1
+    },
+    {
+      "source": "Zion",
+      "target": "Tooele",
+      "weight": 25
+    },
+    {
+      "source": "Zion",
+      "target": "Utah",
+      "weight": 77
+    },
+    {
+      "source": "Zion",
+      "target": "Wasatch",
+      "weight": 6
+    },
+    {
+      "source": "Zion",
+      "target": "Washington",
+      "weight": 422
+    },
+    {
+      "source": "Zion",
+      "target": "Wayne",
+      "weight": 3
+    },
+    {
+      "source": "Zion",
+      "target": "Weber",
+      "weight": 14
+    }
+  ]
+}
