@@ -1,141 +1,244 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Bipartite Graph with D3.js</title>
+  <meta charset="UTF-8" />
+  <title>Sankey Bipartite Graph</title>
   <style>
+    body {
+      font-family: "Georgia", "Palatino Linotype", "Helvetica Neue", sans-serif;
+      background: white;
+      margin: 0;
+      padding: 2em;
+      color: #333;
+    }
+
     svg {
       width: 100%;
-      height: 800px;
-      border: 1px solid #ccc;
     }
-    .group-1 {
-      fill: #1f77b4; /* Blue for counties */
+
+    .group-1, .group-2 {
+      fill: #bbb;
+      stroke: #333;
+      stroke-width: 1.5px;
     }
-    .group-2 {
-      fill: #ff7f0e; /* Orange for units */
-    }
-    text {
-      font-size: 10px;
+
+    .label {
+      font-size: 11px;
+      fill: #555;
       pointer-events: none;
+    }
+
+    .header-label {
+      font-size: 16px;
+      fill: #222;
+      font-weight: bold;
+    }
+
+    .tooltip {
+      position: absolute;
+      padding: 6px 12px;
+      background: #fff;
+      border: 1px solid #ccc;
+      font-size: 12px;
+      pointer-events: none;
+      display: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
   <svg></svg>
+  <div class="tooltip"></div>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script>
     d3.json("bipartite_graph.json").then(function(data) {
       const width = 1000;
-      const height = 800;
       const padding = 100;
+      const barWidth = 10;
+      const barGap = 12;
 
-      const svg = d3.select("svg")
-        .attr("viewBox", [0, 0, width, height]);
+      const svg = d3.select("svg");
 
-      // Split nodes into groups
-      const leftNodes = data.nodes.filter(d => d.group === 1);  // targets
-      const rightNodes = data.nodes.filter(d => d.group === 2); // sources
+      const tooltip = d3.select(".tooltip");
 
-      // Prepare all nodes in one array for lookup
+      const leftNodes = data.nodes.filter(d => d.group === 1);
+      const rightNodes = data.nodes.filter(d => d.group === 2);
       const nodes = leftNodes.concat(rightNodes);
 
-      // Build links with reference to node objects
       const links = data.links.map(link => ({
         source: nodes.find(n => n.id === link.source),
         target: nodes.find(n => n.id === link.target),
         weight: link.weight
       }));
 
-      // Build nodeWeightMap and attach totalWeight to nodes
       const nodeWeightMap = new Map();
       links.forEach(link => {
         nodeWeightMap.set(link.source.id, (nodeWeightMap.get(link.source.id) || 0) + link.weight);
         nodeWeightMap.set(link.target.id, (nodeWeightMap.get(link.target.id) || 0) + link.weight);
       });
-
       nodes.forEach(n => {
         n.totalWeight = nodeWeightMap.get(n.id) || 0;
       });
 
-      // Sort left and right nodes by descending total weight
       leftNodes.sort((a, b) => b.totalWeight - a.totalWeight);
       rightNodes.sort((a, b) => b.totalWeight - a.totalWeight);
 
-      // Position nodes
-      leftNodes.forEach((d, i) => {
+      const rectHeightScale = d3.scaleLinear()
+        .domain(d3.extent(nodes, d => d.totalWeight))
+        .range([10, 80]);
+
+      let leftY = padding;
+      leftNodes.forEach(d => {
+        const h = rectHeightScale(d.totalWeight);
         d.x = padding;
-        d.y = padding + i * (height - 2 * padding) / leftNodes.length;
+        d.y = leftY + h / 2;
+        leftY += h + barGap;
       });
 
-      rightNodes.forEach((d, i) => {
+      let rightY = padding;
+      rightNodes.forEach(d => {
+        const h = rectHeightScale(d.totalWeight);
         d.x = width - padding;
-        d.y = padding + i * (height - 2 * padding) / rightNodes.length;
+        d.y = rightY + h / 2;
+        rightY += h + barGap;
       });
 
-      // Define log-based scales
-const weightExtent = d3.extent(links, d => d.weight);
-const strokeScale = d3.scaleLinear().domain(weightExtent).range([1, 6]);
-const opacityScale = d3.scaleLinear().domain(weightExtent).range([0.2, 1]);
+      const totalLeftHeight = d3.sum(leftNodes, d => rectHeightScale(d.totalWeight)) + barGap * (leftNodes.length - 1);
+      const totalRightHeight = d3.sum(rightNodes, d => rectHeightScale(d.totalWeight)) + barGap * (rightNodes.length - 1);
+      const totalHeight = Math.max(totalLeftHeight, totalRightHeight) + padding * 2;
 
-      // Node radius scale
-const radiusExtent = d3.extent(nodes, d => d.totalWeight);
-const radiusScale = d3.scaleLinear().domain(radiusExtent).range([3, 10]);
+      svg.attr("viewBox", [0, 0, width, totalHeight])
+         .attr("height", totalHeight);
 
-      // Sanitize helper for class names
+      const strokeScale = d3.scaleLinear()
+        .domain(d3.extent(links, d => d.weight))
+        .range([1, 10]);
+
+      const opacityScale = d3.scaleLinear()
+        .domain(d3.extent(links, d => d.weight))
+        .range([0.2, 0.9]);
+
+      const nodeYExtent = new Map();
+      nodes.forEach(d => {
+        const h = rectHeightScale(d.totalWeight);
+        nodeYExtent.set(d.id, {
+          top: d.y - h / 2,
+          height: h
+        });
+      });
+
+      const linkCounts = new Map();
+      links.forEach(link => {
+        linkCounts.set(link.source.id, (linkCounts.get(link.source.id) || 0) + 1);
+        linkCounts.set(link.target.id, (linkCounts.get(link.target.id) || 0) + 1);
+      });
+
+      const linkOffsets = new Map();
+      function getNextY(id, isSource) {
+        const key = (isSource ? "s:" : "t:") + id;
+        const offset = (linkOffsets.get(key) || 0);
+        const count = linkCounts.get(id);
+        const { top, height } = nodeYExtent.get(id);
+        const step = height / count;
+        linkOffsets.set(key, offset + 1);
+        return top + step * (offset + 0.5);
+      }
+
       function sanitize(id) {
         return id.replace(/[^a-zA-Z0-9]/g, "_");
       }
 
-      // Draw links
-      const link = svg.append("g")
-        .selectAll("line")
-        .data(links)
-        .join("line")
-          .attr("class", d => `link source-${sanitize(d.source.id)} target-${sanitize(d.target.id)}`)
-          .attr("stroke", "#555")
- .attr("stroke-width", d => strokeScale(d.weight))
-.attr("stroke-opacity", d => opacityScale(d.weight))
-          .attr("x1", d => d.source.x)
-          .attr("y1", d => d.source.y)
-          .attr("x2", d => d.target.x)
-          .attr("y2", d => d.target.y);
+      // Color scale by source node
+      const sourceNodeIDs = [...new Set(links.map(d => d.source.id))];
+      const colorScale = d3.scaleOrdinal()
+        .domain(sourceNodeIDs)
+        .range(d3.schemeCategory10);
 
-      // Draw nodes
-      const node = svg.append("g")
-        .selectAll("circle")
-        .data(nodes)
-        .join("circle")
-          .attr("cx", d => d.x)
-          .attr("cy", d => d.y)
- .attr("r", d => radiusScale(d.totalWeight))
-          .attr("class", d => `group-${d.group}`)
+      svg.append("text")
+        .text("Counties")
+        .attr("x", padding)
+        .attr("y", 40)
+        .attr("text-anchor", "start")
+        .attr("class", "header-label");
+
+      svg.append("text")
+        .text("Units")
+        .attr("x", width - padding)
+        .attr("y", 40)
+        .attr("text-anchor", "end")
+        .attr("class", "header-label");
+
+      const link = svg.append("g")
+        .selectAll("path")
+        .data(links)
+        .join("path")
+          .attr("class", d => `link source-${sanitize(d.source.id)} target-${sanitize(d.target.id)}`)
+          .attr("fill", d => colorScale(d.source.id))
+          .attr("fill-opacity", d => opacityScale(d.weight))
+          .attr("stroke", "none")
+          .attr("d", d => {
+            const sx = d.source.x + (d.source.group === 1 ? barWidth / 2 : -barWidth / 2);
+            const tx = d.target.x + (d.target.group === 1 ? barWidth / 2 : -barWidth / 2);
+            const sw = strokeScale(d.weight);
+
+            const sy = getNextY(d.source.id, true);
+            const ty = getNextY(d.target.id, false);
+
+            const sx0 = sx, sx1 = sx;
+            const sy0 = sy - sw / 2, sy1 = sy + sw / 2;
+
+            const tx0 = tx, tx1 = tx;
+            const ty0 = ty - sw / 2, ty1 = ty + sw / 2;
+
+            const mx = (sx + tx) / 2;
+
+            return `
+              M ${sx0},${sy0}
+              C ${mx},${sy0} ${mx},${ty0} ${tx0},${ty0}
+              L ${tx1},${ty1}
+              C ${mx},${ty1} ${mx},${sy1} ${sx1},${sy1}
+              Z
+            `;
+          })
           .on("mouseover", (event, d) => {
-            svg.selectAll("line")
-              .attr("stroke", l =>
-                l.source.id === d.id || l.target.id === d.id ? "#d62728" : "#ccc"
-              )
-              .attr("stroke-opacity", l =>
-                l.source.id === d.id || l.target.id === d.id ? 1 : 0.1
-              );
+            tooltip.style("display", "block")
+              .html(`<strong>${d.source.id}</strong> → <strong>${d.target.id}</strong><br>Weight: ${d.weight}`)
+              .style("left", (event.pageX + 10) + "px")
+              .style("top", (event.pageY + 10) + "px");
           })
           .on("mouseout", () => {
-            svg.selectAll("line")
-              .attr("stroke", "#555")
-              .attr("stroke-opacity", d => opacityScale(logWeight(d)));
+            tooltip.style("display", "none");
           });
 
-      // Draw labels
-      const label = svg.append("g")
+      svg.append("g")
+  .selectAll("rect")
+  .data(nodes)
+  .join("rect")
+    .attr("x", d => d.x - barWidth / 2)
+    .attr("y", d => d.y - rectHeightScale(d.totalWeight) / 2)
+    .attr("width", barWidth)
+    .attr("height", d => rectHeightScale(d.totalWeight))
+    .attr("fill", d => {
+      if (d.group === 2) {
+        const incoming = links.find(l => l.target.id === d.id);
+        return incoming ? colorScale(incoming.source.id) : "#bbb";
+      }
+      return "#bbb";
+    })
+    .attr("stroke", "#333")
+    .attr("stroke-width", 1.5);
+
+      svg.append("g")
         .selectAll("text")
         .data(nodes)
         .join("text")
+          .attr("class", "label")
           .text(d => d.id)
-          .attr("x", d => d.group === 1 ? d.x - 8 : d.x + 8)
+          .attr("x", d => d.group === 1 ? d.x - 12 : d.x + 12)
           .attr("y", d => d.y + 3)
-          .attr("text-anchor", d => d.group === 1 ? "end" : "start")
-          .attr("font-size", 10);
+          .attr("text-anchor", d => d.group === 1 ? "end" : "start");
     });
   </script>
 </body>
